@@ -1,0 +1,13 @@
+name: cm203
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python==3.9.12
+- ipython
+- jupyter
+- ipykernel
+- pip
+- pip:
+  - -r requirements.txt
+
